@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".two",
     start: "0% 95%",
